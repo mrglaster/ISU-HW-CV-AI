@@ -240,7 +240,7 @@ entries['K1'] = k1_entry
 browse_btn = tk.Button(root, text="Browse", width=10, command=browse_file)
 browse_btn.grid(row=8, column=0, padx=5, pady=5, sticky=tk.W)
 
-apply_btn = tk.Button(root, text="Apply Text Fields", width=10, command=apply_text_fields)
+apply_btn = tk.Button(root, text="Apply Text Fields", width=30, command=apply_text_fields)
 apply_btn.grid(row=8, column=2, padx=5, pady=5, sticky=tk.W)
 
 fig, ax = plt.subplots()
