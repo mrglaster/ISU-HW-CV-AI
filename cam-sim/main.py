@@ -190,7 +190,7 @@ rotation_cam_y_slider = tk.Scale(root, from_=-10, to=10, resolution=1, length=25
 rotation_cam_y_slider.grid(row=6, column=1, padx=5, pady=5)
 sliders['Rotation Cam Y'] = rotation_cam_y_slider
 
-k1_slider = tk.Scale(root, from_=-10, to=10, length=250, resolution=1.0, orient='horizontal', command=on_k1_change)
+k1_slider = tk.Scale(root, from_=-10, to=10, resolution=0.1,  length=250,orient='horizontal', command=on_k1_change)
 k1_slider.grid(row=7, column=1, padx=5, pady=5)
 sliders['K1'] = k1_slider
 
